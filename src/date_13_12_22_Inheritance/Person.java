@@ -1,15 +1,21 @@
 package date_13_12_22_Inheritance;
 
 public class Person {
+	
 	// to create inheritance relation between classes, use keyword extends
 	// one class can have one parent class, and many child classes
 	// you inherit all of the variables and methods of the parent class
 	// you do not get the constructors, but you can call them if needed
+	// By default every class will have hidden constructor, but as soon as you create constructor. you no longer have access to default one
+	
 	// class Object is the parent of all of the classes
-	// if you do not specify any extends for you class, it automatically extends
-	// Object
+	// if you do not specify any extends for you class, it automatically extends class object
+	// object class by default is parent class of all of the classes
+	
 	// this keyword = refers to the scope of current class
 	// super keyword = refers to the scope of the parent class
+	
+	
 	private String firstName;
 	private String lastName;
 	private String email;
