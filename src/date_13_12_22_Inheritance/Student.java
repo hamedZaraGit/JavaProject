@@ -9,11 +9,13 @@ public class Student extends Person{
     // constructors
     
     public Student() {
+    	super();
     	this.gpa = 0;
     	this.major = "";
     }
     
-    public Student(double gpa, String major) {
+    public Student(String firstName, String lastName, String email, String gender, int age, String position, int employeeID, double gpa, String major) {
+    	super(firstName, lastName, email, gender, age);
     	this.gpa = gpa;
     	this.major = major;
     }
@@ -40,7 +42,7 @@ public class Student extends Person{
     
     @Override
     public String toString() {
-		return "Gpa: " + gpa + ", Major: " + major;
+		return "Student: [" + super.toString() + ", Gpa: " + gpa + ", Major: " + major + "]";
     	
     }
 }

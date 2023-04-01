@@ -1,4 +1,4 @@
-package date_15_11_22;
+package date_15_11_22_ifStatements;
 
 public class ConditionalOperatorExample {
 
@@ -42,7 +42,7 @@ public class ConditionalOperatorExample {
 		double forthNumber = 11.5;
 		double fifthNumber = 5.5;
 
-//		Find sum of below varaibles.
+//		Find sum of below variables.
 //		secondNumber
 //		thirdNumber
 //		forthNumber

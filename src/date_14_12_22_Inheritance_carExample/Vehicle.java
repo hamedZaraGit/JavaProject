@@ -56,16 +56,16 @@ public class Vehicle {
 		this.year = year;
 	}
 
-//	@Override - to reassure that we have the right mehod defination
+//	@Override - to reassure that we have the right method definition
 	// and showing that this is a method that we have inherited and now
 	// changing its implementation
 	
 	@Override
 	public String toString() {
-		return "maxSpeed=" + maxSpeed 
-				+ ", \nmake=" + make 
-				+ ", \nmodel=" + model 
-				+ ", \nyear=" + year;
+		return "maxSpeed = " + maxSpeed 
+				+ "\n" + "make = " + make 
+				+ "\n" + "model = " + model 
+				+ "\n" + "year = " + year;
 	}
 
 

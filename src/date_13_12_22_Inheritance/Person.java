@@ -81,7 +81,7 @@ public class Person {
 	// toString will give you a String representation of the object
 	@Override
 	public String toString() {
-		return "firstName: " + firstName + ", lastName: " + lastName + ", email: " + email + ", gender: " + gender;
+		return "firstName: " + firstName + ", lastName: " + lastName + ", email: " + email + ", gender: " + gender + ", age: " + age;
 
 	}
 

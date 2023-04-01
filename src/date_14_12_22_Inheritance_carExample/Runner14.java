@@ -14,6 +14,15 @@ public class Runner14 {
 
 		System.out.println(obj3);
 		
+		
+		System.out.println("-----------------------------------------------------------------");
+		
+		MotorCycle obj4 = new MotorCycle(120, "BMW", "X5", 2010, "Auto", "Good", 4);
+		
+		System.out.println(obj4);
+		
+		
+		
 	}
 
 }

@@ -1,4 +1,4 @@
-package date_15_11_22;
+package date_15_11_22_ifStatements;
 
 public class NestedIfPractice {
 
