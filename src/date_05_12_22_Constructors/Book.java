@@ -22,7 +22,7 @@ public class Book {
 	
 //	Step 2: Create constructor
 	
-//	default constructor example / Means when you dont have any parameters or arguments.
+//	default constructor example / Means when you don't have any parameters or arguments.
 //								/ when the values are default
 //								/ If you want to have values printed in the your runner class
 //								/ you have provide your values in here
@@ -45,22 +45,14 @@ public class Book {
 	
 	public Book(String newTitle, double newPrice) {
 		
-		title = newTitle;
-		author = " ";
-		genre = " ";
-		issueDate = " ";
-		version = 0;
-		ISBN = " ";
-		price = newPrice;
-		publisher = " ";
-		numberOfPages = 0;
+		this.title = newTitle;
 		
-		
-		
+		this.price = newPrice;
 		
 	}
 	
-	
+
+
 	public Book(String newTitle, String newAuthor, String newGenre,String newIssueDate, 
 			double newVersion, String newISBN,  double newPrice, 
 			String newPublisher, int newNumberOfPages) {
@@ -77,6 +69,9 @@ public class Book {
 	
 	
 	
+	
+
+
 	public void printBookInfo() {
 		
 		String line1 = "Title: " + title + ", Author: " + author + ", ISBN: " + ISBN + ", Price: " + price;
@@ -128,6 +123,10 @@ public class Book {
 		return res;
 
 	}
+	
+	
+
+	
 	
 	
 	
