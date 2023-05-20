@@ -1,7 +1,9 @@
 package classPractice;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Scanner;
 import java.lang.*;
 
@@ -96,6 +98,14 @@ public class Mock {
 			String target = "nagaram";
 
 			System.out.println(isAnagram(obj3, target));
+			
+			
+//		Q4
+			
+			//text = 2, for = 2
+			String input = "This is a sample text text for for question question";
+			System.out.println(findDuplicates(input));
+
 		
 		
 		
@@ -198,6 +208,32 @@ public static boolean isAnagram(String input, String target) {
 		
 		return Arrays.equals(tempInput, tempTarget);
 	}
+
+
+
+
+
+//		Q4
+		//text = 2, for = 2
+
+
+	public static Map<String, Integer> findDuplicates(String str) {
+		HashMap<String, Integer> res = new HashMap<>();
+		HashMap<String, Integer> result = new HashMap<>();
+		String[] words = str.split(" ");
+		for (String s : words) {
+			if (res.containsKey(s)) {
+				res.put(s, res.get(s) + 1);
+				result.put(s, res.get(s));
+			} else {
+				res.put(s, 1);
+			}
+		}
+		return result;
+	}
+
+
+
 	
 	
 	
