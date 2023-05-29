@@ -11,6 +11,9 @@ public class Mock {
 
 	public static void main(String[] args) {
 
+		
+		System.out.println("\n" + "--------------Number Pyramid-----------" + "\n");
+		
 //		I.. User has 5 rows.
 //		II. After getting the user input, print the pyramid of numbers for entered number of rows.
 
@@ -42,6 +45,12 @@ public class Mock {
 			System.out.println();
 			trigger = false;
 		}
+		
+		
+		System.out.println("\n" + "-------------------------------" + "\n");
+		
+		System.out.println("\n" + "----------------Reverse String--------------" + "\n");
+		
 
 //		Q1: Reverse the String
 
@@ -55,7 +64,10 @@ public class Mock {
 		System.out.println(reverseEachWord(str));
 		
 		
-		
+		System.out.println("\n" + "-------------------------------" + "\n");
+
+		System.out.println("\n" + "---------------Spliting lowercase, Uppercase, special characters, numbers in a string---------------" + "\n");
+
 		
 //		Q1
 //		Create for functions
@@ -74,7 +86,10 @@ public class Mock {
 		
 		
 		
-		
+		System.out.println("\n" + "-------------------------------" + "\n");
+
+		System.out.println("\n" + "----------------Finding out vowel characters---------------" + "\n");
+
 		
 //		Q2
 //		Count of the vowel characters
@@ -87,6 +102,10 @@ public class Mock {
 		System.out.println(vowelCount(obj));
 
 		
+		System.out.println("\n" + "-------------------------------" + "\n");
+
+		System.out.println("\n" + "---------------Finding out Anagram----------------" + "\n");
+
 		
 //		Q3
 		
@@ -99,6 +118,10 @@ public class Mock {
 
 			System.out.println(isAnagram(obj3, target));
 			
+			
+			System.out.println("\n" + "-------------------------------" + "\n");
+			System.out.println("\n" + "----------------Finding out duplicates and counting them---------------" + "\n");
+
 			
 //		Q4
 			
@@ -214,6 +237,7 @@ public static boolean isAnagram(String input, String target) {
 
 
 //		Q4
+//		Finding out duplicates with their count
 		//text = 2, for = 2
 
 
